@@ -5,7 +5,7 @@
     <div class="slide animation__style10 bg-image--1 fullscreen align__center--left">
         <div class="container">
             <div class="row">
-                <img src="{{asset($product->image)}}" alt="{{$product->name??''}}" class="img-fluid img-200">
+                {{-- <img src="{{asset($newproducts->image)}}" alt="{{$newproducts->name??''}}" class="img-fluid img-200"> --}}
                 <div class="col-lg-12">
                     <div class="slider__content">
                         <div class="contentbox">
