@@ -22,3 +22,4 @@ Homestead.json
 /.vagrant
 .phpunit.result.cache
 config/services.php
+config/database.php
