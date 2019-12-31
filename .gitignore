@@ -1,4 +1,6 @@
 
 /.env
 /config/*
-*.php
+/config/database.php/
+/config/app.php
+/config/mail.php
