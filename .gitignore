@@ -15,7 +15,7 @@ public/hot
 public_html/storage
 public_html/hot
 storage/*.key
-config\*.php
+
 .env
 Homestead.yaml
 Homestead.json
