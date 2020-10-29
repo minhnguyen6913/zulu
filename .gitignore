@@ -1,25 +1,57 @@
-/vendor/
-node_modules/
-npm-debug.log
-yarn-error.log
-
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
-
-# Laravel 5 & Lumen specific
-public/storage
-public/hot
-
-# Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
-storage/*.key
-
 .env
-Homestead.yaml
-Homestead.json
-/.vagrant
-.phpunit.result.cache
-config/services.php
-config/database.php
+#-------------------------
+# Public
+#-------------------------
+!public/assets/
+public/assets/*
+!public/assets/ext/
+!public/assets/index.html
+#-------------------------
+# Composer
+#-------------------------
+vendor/
+composer.lock
+
+#-------------------------
+# Temporary Files
+#-------------------------
+writable/cache/*
+!writable/cache/index.html
+
+writable/logs/*
+!writable/logs/index.html
+
+writable/session/*
+!writable/session/index.html
+
+writable/smarty/cached/*
+!writable/smarty/cached/index.html
+writable/smarty/compiled/*
+!writable/smarty/compiled/index.html
+
+writable/uploads/*
+!writable/uploads/index.html
+
+writable/debugbar/*
+
+
+# Jetbrains
+.idea/
+
+# Netbeans
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+
+# Sublime
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Visual Studio Code
+.vscode/
+
