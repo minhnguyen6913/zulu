@@ -3,7 +3,7 @@
 # Public
 #-------------------------
 !public/assets/
-public/assets/*
+!public/assets/*
 !public/assets/ext/
 !public/assets/index.html
 #-------------------------
