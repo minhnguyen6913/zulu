@@ -32,9 +32,9 @@ class Database extends \CodeIgniter\Database\Config
 	public $default = [
 		'DSN'      => '',
 		'hostname' => 'localhost',
-		'username' => 'user',
-		'password' => 'password',
-		'database' => 'ci4',
+		'username' => 'baodinh',
+		'password' => '#1Cenlab@2021',
+		'database' => 'smeq_homepage',
 		'DBDriver' => 'MySQLi',
 		'DBPrefix' => '',
 		'pConnect' => false,
